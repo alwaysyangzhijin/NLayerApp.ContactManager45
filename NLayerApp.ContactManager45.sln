@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{02940C0E-58B3-4E25-B1FD-D28F58FC1A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Model", "Applications\NLayerApp.ContactManager45.Model\NLayerApp.ContactManager45.Model.csproj", "{0E58227A-C775-4877-B0CF-75D4C844C27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Repository", "Applications\NLayerApp.ContactManager45.Repository\NLayerApp.ContactManager45.Repository.csproj", "{CAFA2282-91C4-4092-9A58-DBEA46589C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.Infrastructure", "Applications\NLayerApp.Infrastructure\NLayerApp.Infrastructure.csproj", "{28D0B0BE-DB1B-4837-A9E3-993BB5B74D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Web.Mvc", "Applications\NLayerApp.ContactManager45.Web.Mvc\NLayerApp.ContactManager45.Web.Mvc.csproj", "{01C8D203-6C1A-4CB9-990C-5310FA918419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Web.WebForms", "Applications\NLayerApp.ContactManager45.Web.WebForms\NLayerApp.ContactManager45.Web.WebForms.csproj", "{1C34A4CD-D1F7-4807-824D-478503567D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Web.Wcf", "Applications\NLayerApp.ContactManager45.Web.Wcf\NLayerApp.ContactManager45.Web.Wcf.csproj", "{10078B9E-16AF-4AEB-8048-28151D9B91B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{26E31194-F499-4592-9B16-D92E3ACAF6FF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Import", "Applications\NLayerApp.ContactManager45.Import\NLayerApp.ContactManager45.Import.csproj", "{2093B6E4-DE70-44DA-AD3F-D290F4FC1947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5DB4563C-9F02-4B86-9A9F-A436943A2844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Tests.Unit", "Tests\NLayerApp.ContactManager45.Tests.Unit\NLayerApp.ContactManager45.Tests.Unit.csproj", "{C3852D45-5907-40E7-B442-FA832DAECC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Tests.Integration", "Tests\NLayerApp.ContactManager45.Tests.Integration\NLayerApp.ContactManager45.Tests.Integration.csproj", "{E69F3D15-E699-46C6-BB54-646D237C63C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Tests.Frontend.Mvc", "Tests\NLayerApp.ContactManager45.Tests.Frontend.Mvc\NLayerApp.ContactManager45.Tests.Frontend.Mvc.csproj", "{05E613F0-B222-4414-B158-583C57FF1378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.ContactManager45.Tests.Frontend.Wcf", "Tests\NLayerApp.ContactManager45.Tests.Frontend.Wcf\NLayerApp.ContactManager45.Tests.Frontend.Wcf.csproj", "{1B376A72-D0E1-4C56-ADB9-F190CD2225DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E58227A-C775-4877-B0CF-75D4C844C27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E58227A-C775-4877-B0CF-75D4C844C27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E58227A-C775-4877-B0CF-75D4C844C27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E58227A-C775-4877-B0CF-75D4C844C27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFA2282-91C4-4092-9A58-DBEA46589C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFA2282-91C4-4092-9A58-DBEA46589C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFA2282-91C4-4092-9A58-DBEA46589C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFA2282-91C4-4092-9A58-DBEA46589C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D0B0BE-DB1B-4837-A9E3-993BB5B74D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D0B0BE-DB1B-4837-A9E3-993BB5B74D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D0B0BE-DB1B-4837-A9E3-993BB5B74D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D0B0BE-DB1B-4837-A9E3-993BB5B74D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C8D203-6C1A-4CB9-990C-5310FA918419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C8D203-6C1A-4CB9-990C-5310FA918419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C8D203-6C1A-4CB9-990C-5310FA918419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C8D203-6C1A-4CB9-990C-5310FA918419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C34A4CD-D1F7-4807-824D-478503567D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C34A4CD-D1F7-4807-824D-478503567D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C34A4CD-D1F7-4807-824D-478503567D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C34A4CD-D1F7-4807-824D-478503567D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10078B9E-16AF-4AEB-8048-28151D9B91B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10078B9E-16AF-4AEB-8048-28151D9B91B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10078B9E-16AF-4AEB-8048-28151D9B91B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10078B9E-16AF-4AEB-8048-28151D9B91B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2093B6E4-DE70-44DA-AD3F-D290F4FC1947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2093B6E4-DE70-44DA-AD3F-D290F4FC1947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2093B6E4-DE70-44DA-AD3F-D290F4FC1947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2093B6E4-DE70-44DA-AD3F-D290F4FC1947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3852D45-5907-40E7-B442-FA832DAECC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3852D45-5907-40E7-B442-FA832DAECC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3852D45-5907-40E7-B442-FA832DAECC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3852D45-5907-40E7-B442-FA832DAECC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69F3D15-E699-46C6-BB54-646D237C63C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69F3D15-E699-46C6-BB54-646D237C63C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69F3D15-E699-46C6-BB54-646D237C63C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69F3D15-E699-46C6-BB54-646D237C63C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E613F0-B222-4414-B158-583C57FF1378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E613F0-B222-4414-B158-583C57FF1378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E613F0-B222-4414-B158-583C57FF1378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E613F0-B222-4414-B158-583C57FF1378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B376A72-D0E1-4C56-ADB9-F190CD2225DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B376A72-D0E1-4C56-ADB9-F190CD2225DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B376A72-D0E1-4C56-ADB9-F190CD2225DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B376A72-D0E1-4C56-ADB9-F190CD2225DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01C8D203-6C1A-4CB9-990C-5310FA918419} = {02940C0E-58B3-4E25-B1FD-D28F58FC1A5E}
+		{1C34A4CD-D1F7-4807-824D-478503567D85} = {02940C0E-58B3-4E25-B1FD-D28F58FC1A5E}
+		{10078B9E-16AF-4AEB-8048-28151D9B91B0} = {02940C0E-58B3-4E25-B1FD-D28F58FC1A5E}
+		{2093B6E4-DE70-44DA-AD3F-D290F4FC1947} = {02940C0E-58B3-4E25-B1FD-D28F58FC1A5E}
+		{C3852D45-5907-40E7-B442-FA832DAECC6F} = {5DB4563C-9F02-4B86-9A9F-A436943A2844}
+		{E69F3D15-E699-46C6-BB54-646D237C63C6} = {5DB4563C-9F02-4B86-9A9F-A436943A2844}
+		{05E613F0-B222-4414-B158-583C57FF1378} = {5DB4563C-9F02-4B86-9A9F-A436943A2844}
+		{1B376A72-D0E1-4C56-ADB9-F190CD2225DA} = {5DB4563C-9F02-4B86-9A9F-A436943A2844}
+	EndGlobalSection
+EndGlobal
